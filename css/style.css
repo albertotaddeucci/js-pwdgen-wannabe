@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: azure;
+}
+
+.container{
+    max-width: 1000px;
+    margin-inline: auto;
+    padding: 1em;
+    
+}
+
+.card{
+    margin-top: 2em;      
+    border-radius: 20px;    
+    background-color: steelblue; 
+    
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+header{
+    padding: 1em;
+
+    text-align: center;
+    color: white;
+    
+}
+
+.text{
+    padding: 1em;   
+
+    border-radius: 20px;     
+    background-color: rgb(138, 186, 224);
+}
+
+.text > div{
+    font-size: 1.7em;     
+}
+
+hr{
+    margin-block:1em ;
+}
+
+#password{
+    padding: 5px;
+
+    border: 2px solid black;
+    border-radius: 5px;
+    
+    background-color: white;
+    color: red;
+
+}

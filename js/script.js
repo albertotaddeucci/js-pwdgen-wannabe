@@ -12,13 +12,12 @@ favouriteColor = prompt("Qual è il tuo colore preferito?");
 
 // print password a schermo
 document.getElementById("password").innerHTML = 
-    `La tua password è: 
-        ${fullName}${surname}${favouriteColor}23`
+    `${fullName}${surname}${favouriteColor}23`
 ;
 
 // print recap a schermo
 document.getElementById("recap").innerHTML = 
-    `Nome inserito: ${fullName} <br>
-    Cognome inserito: ${surname} <br>
-    Colore preferito inserito: ${favouriteColor}`
+    `Nome inserito: <i>${fullName}</i> <br>
+    Cognome inserito: <i>${surname}</i> <br>
+    Colore preferito inserito: <i>${favouriteColor}</i>`
 ;
